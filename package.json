@@ -13,8 +13,14 @@
   },
   "files": [
     "dist",
-    "android"
+    "android",
+    "index.ts",
+    "types/index.d.ts",
+    "!android/build"
   ],
+  "main": "index",
+  "types": "./types/index.d.ts",
+  "typings": "./types/index.d.ts",
   "keywords": [
   ],
   "dependencies": {
